@@ -176,13 +176,15 @@ function ServicesPage() {
     homePageText.style.display = "none";
     iconHotel.style.display = "none";
 
-    pool.style.display = "block";
-    spa.style.display = "block";
-    room.style.display = "block";
+    pool.style.display = "none";
+    spa.style.display = "none";
+    room.style.display = "none";
     OurServicesPage.style.display = "block";
     OurServicesItemsRoom.style.display = "block";
     OurServicesItemsPool.style.display = "block";
     OurServicesItemsSpa.style.display = "block";
+
+
     Contact.style.display = "none";
     ContactUsDiv.style.display = "none";
     ContactUsDivP.style.display = "none";

@@ -97,6 +97,45 @@
     </div>
 
 
+
+
+
+    <script>
+        // Get references to text elements and corresponding images
+        const roomText = document.getElementById("OurServicesItemsRoom");
+        const poolText = document.getElementById("OurServicesItemsPool");
+        const spaText = document.getElementById("OurServicesItemsSpa");
+    
+        const roomImg = document.getElementById("room");
+        const poolImg = document.getElementById("pool");
+        const spaImg = document.getElementById("spa");
+    
+        // Function to show/hide images based on hover
+        function toggleImageVisibility(img) {
+            roomImg.style.display = "none";
+            poolImg.style.display = "none";
+            spaImg.style.display = "none";
+            img.style.display = "block";
+        }
+    
+        // Event listeners for hover effect
+        roomText.addEventListener("mouseover", function() {
+            toggleImageVisibility(roomImg);
+        });
+    
+        poolText.addEventListener("mouseover", function() {
+            toggleImageVisibility(poolImg);
+        });
+    
+        spaText.addEventListener("mouseover", function() {
+            toggleImageVisibility(spaImg);
+        });
+    </script>
+
+
+
+
+
 </body>
 
 </html>
